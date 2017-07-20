@@ -21,6 +21,3 @@ RUN pip install earthengine-api
 # Install other python packages
 RUN pip install gsutil \
     pandas
-
-# Set up paths
-ENV PYTHONPATH /westwide-fire:/westwide-fire/src:$PYTHONPATH
